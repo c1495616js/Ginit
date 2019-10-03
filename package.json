@@ -1,0 +1,31 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "description": "\"git init\" on steroids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Jerry Wang",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.30.1",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.126.0",
+    "touch": "^3.1.0"
+  },
+  "bin": {
+    "ginit": "./index.js"
+  }
+}
